@@ -161,8 +161,6 @@ To enable live movie autofill, create a `.env` file in the project root and add 
 OMDB_API_KEY=your_key_here
 ```
 
-**Important:** Never upload your actual API key or `.env` file to GitHub. Make sure `.env` is included in `.gitignore`.
-
 ---
 
 ## Project Objective
