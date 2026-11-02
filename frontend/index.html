@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Greenlight Simulator - Movie Outcome Prediction & Industry Analytics</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Browser Tab Icon (Favicon: Font Awesome Video Camera) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 576 512'%3E%3Cpath fill='%232563eb' d='M0 128C0 92.7 28.7 64 64 64H320c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128zM559.1 99.8c10.4 5.6 16.9 16.4 16.9 28.2V384c0 11.8-6.5 22.6-16.9 28.2s-23 5-32.9-1.6l-96-64L416 337.1V320 192 174.9l14.2-9.5 96-64c9.8-6.5 22.4-7.2 32.9-1.6z'/%3E%3C/svg%3E">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Chart.js for data visualization -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <!-- Top Navigation Header -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="brand">
+        <h1 class="brand-title"><i class="fa-solid fa-video brand-icon"></i> Greenlight Simulator</h1>
+        <p class="brand-subtitle">Pre-Release Predictive Analysis & Box Office Intelligence</p>
+      </div>
+      <nav class="header-nav">
+        <button id="nav-simulator" class="nav-btn active" type="button">Simulator</button>
+        <button id="nav-statistics" class="nav-btn" type="button">Statistics</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+
+    <!-- ==================== VIEW 1: SIMULATOR ==================== -->
+    <section id="view-simulator" class="view-section active">
+      
+      <!-- OMDb Real Movie Lookup (Collapsible Tool) -->
+      <div class="card utility-card">
+        <div class="utility-header" id="omdb-toggle">
+          <div>
+            <h2 class="section-title">Lookup Real Movie (OMDb)</h2>
+            <p class="section-desc">Search an existing title to automatically populate the questions below.</p>
+          </div>
+          <button id="omdb-toggle-btn" class="btn btn-secondary btn-sm" type="button">Toggle Search</button>
+        </div>
+        <div id="omdb-panel" class="utility-body hidden">
+          <div class="form-row">
+            <div class="form-group flex-2">
+              <label for="omdb-title">Movie Title</label>
+              <input type="text" id="omdb-title" placeholder="e.g. Inception, Avatar, The Dark Knight">
+            </div>
+            <div class="form-group flex-1">
+              <label for="omdb-year">Year (Optional)</label>
+              <input type="number" id="omdb-year" placeholder="e.g. 2010" min="1900" max="2030">
+            </div>
+            <div class="form-group flex-auto align-end">
+              <button id="omdb-search-btn" class="btn btn-primary" type="button">Search Movie</button>
+            </div>
+          </div>
+          <div id="omdb-status" class="status-msg hidden"></div>
+          <div id="omdb-result" class="omdb-preview hidden">
+            <div class="preview-details">
+              <h3 id="omdb-result-title"></h3>
+              <p id="omdb-result-meta" class="text-muted"></p>
+              <p id="omdb-result-plot"></p>
+              <p id="omdb-result-credits" class="text-sm text-muted"></p>
+              <button id="omdb-apply-btn" class="btn btn-primary btn-sm" type="button">Apply Details to Form</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="simulator-layout">
+        
+        <!-- Left Column: Input Questions -->
+        <div class="questions-column">
+          <form id="simulator-form" onsubmit="return false;">
+            
+            <div class="card question-card">
+              <div class="question-header">
+                <span class="question-number">Question 1</span>
+                <label for="budget" class="question-title">What is the estimated production budget?</label>
+              </div>
+              <p class="question-desc">Adjust the slider or enter the value in USD millions (excludes marketing costs).</p>
+              <div class="slider-container">
+                <input type="range" id="budget" name="budget" min="0.1" max="400" step="0.5" value="40">
+                <div class="slider-val-box">
+                  <span class="currency-prefix">$</span>
+                  <input type="number" id="budget-input" min="0.1" max="400" step="0.5" value="40">
+                  <span class="currency-suffix">Million USD</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="card question-card">
+              <div class="question-header">
+                <span class="question-number">Question 2</span>
+                <label for="month" class="question-title">In which month will the movie be released?</label>
+              </div>
+              <p class="question-desc">Select the intended theatrical release month from the dropdown.</p>
+              <div class="form-group">
+                <select id="month" name="month" class="form-select">
+                  <option value="1">January</option>
+                  <option value="2">February</option>
+                  <option value="3">March</option>
+                  <option value="4">April</option>
+                  <option value="5">May</option>
+                  <option value="6" selected>June</option>
+                  <option value="7">July</option>
+                  <option value="8">August</option>
+                  <option value="9">September</option>
+                  <option value="10">October</option>
+                  <option value="11">November</option>
+                  <option value="12">December</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="card question-card">
+              <div class="question-header">
+                <span class="question-number">Question 3</span>
+                <label for="runtime" class="question-title">What is the planned runtime of the movie?</label>
+              </div>
+              <p class="question-desc">Expected length in minutes (standard theatrical duration is typically 90 to 150 minutes).</p>
+              <div class="slider-container">
+                <input type="range" id="runtime" name="runtime" min="60" max="210" step="1" value="110">
+                <div class="slider-val-box">
+                  <input type="number" id="runtime-input" min="60" max="210" step="1" value="110">
+                  <span class="currency-suffix">Minutes</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="card question-card">
+              <div class="question-header">
+                <span class="question-number">Question 4</span>
+                <label for="year" class="question-title">Enter the year</label>
+              </div>
+              <p class="question-desc">Type the scheduled or projected theatrical release year.</p>
+              <div class="form-group">
+                <input type="number" id="year" name="year" min="1970" max="2035" step="1" value="2024" placeholder="e.g. 2024">
+              </div>
+            </div>
+
+            <div class="card question-card">
+              <div class="question-header">
+                <span class="question-number">Question 5</span>
+                <label for="release-location" class="question-title">Enter the release location</label>
+              </div>
+              <p class="question-desc">Specify where the movie will be distributed and exhibited.</p>
+              <div class="form-group">
+                <select id="release-location" name="release-location" class="form-select">
+                  <option value="Global release" selected>Global release (Worldwide theatrical)</option>
+                  <option value="Released in a few states">Released in a few states (Limited / Regional)</option>
+                  <option value="Other locations">Other locations (Direct-to-platform / Special screening)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="card question-card">
+              <div class="question-header">
+                <span class="question-number">Question 6</span>
+                <span class="question-title">Which primary genres best classify this film?</span>
+              </div>
+              <p class="question-desc">Select one or more matching genres that apply.</p>
+              <div id="genres-container" class="checkbox-grid">
+                <!-- Dynamically populated -->
+              </div>
+            </div>
+
+            <div class="card question-card">
+              <div class="question-header">
+                <span class="question-number">Question 7</span>
+                <span class="question-title">What are the language and franchise specifications?</span>
+              </div>
+              <p class="question-desc">Check the options that accurately describe the movie.</p>
+              <div class="checkbox-list">
+                <label class="custom-checkbox">
+                  <input type="checkbox" id="english" name="english" checked>
+                  <span class="checkbox-label">Primary original language is English</span>
+                </label>
+                <label class="custom-checkbox">
+                  <input type="checkbox" id="sequel" name="sequel">
+                  <span class="checkbox-label">Part of an existing intellectual property, franchise, or sequel</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="card question-card">
+              <div class="question-header">
+                <span class="question-number">Question 8</span>
+                <label for="director" class="question-title">Who is directing the film?</label>
+              </div>
+              <p class="question-desc">The model references the historical track record up to the time of release.</p>
+              <div class="form-group">
+                <select id="director" name="director" class="form-select">
+                  <option value="(unknown / new director)">(unknown / new director)</option>
+                  <!-- Populated from metadata -->
+                </select>
+              </div>
+            </div>
+
+            <div class="card question-card">
+              <div class="question-header">
+                <span class="question-number">Question 9</span>
+                <span class="question-title">Who are the lead actors? (Select up to 3)</span>
+              </div>
+              <p class="question-desc">Track records are computed based on prior box office performances.</p>
+              <div class="cast-selection-container">
+                <div class="form-row">
+                  <div class="form-group flex-1">
+                    <label for="cast-search">Search Actor</label>
+                    <input type="text" id="cast-search" placeholder="Type an actor's name...">
+                  </div>
+                  <div class="form-group flex-1">
+                    <label for="cast-select">Available Actors</label>
+                    <select id="cast-select" class="form-select">
+                      <option value="">-- Choose actor to add --</option>
+                    </select>
+                  </div>
+                  <div class="form-group flex-auto align-end">
+                    <button id="add-actor-btn" class="btn btn-secondary" type="button">Add Actor</button>
+                  </div>
+                </div>
+                <div class="selected-tags-container">
+                  <span class="text-sm text-muted">Selected Lead Cast:</span>
+                  <div id="selected-cast-tags" class="tags-list">
+                    <span class="empty-tag-note">No actors selected yet.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card question-card">
+              <div class="question-header">
+                <span class="question-number">Question 10</span>
+                <label for="company" class="question-title">Which production studio is backing the movie?</label>
+              </div>
+              <p class="question-desc">Major studios provide historical track record baselines.</p>
+              <div class="form-group">
+                <select id="company" name="company" class="form-select">
+                  <option value="(unknown)">(unknown)</option>
+                  <!-- Populated from metadata -->
+                </select>
+              </div>
+            </div>
+
+          </form>
+        </div>
+
+        <!-- Right Column: Live Prediction Results -->
+        <div class="results-column">
+          <div class="card results-card sticky-card">
+            <h2 class="section-title">Prediction Analysis</h2>
+            <p class="section-desc">Real-time inference using pre-release historical signals.</p>
+
+            <div class="outcome-box" id="outcome-box">
+              <span class="outcome-label">Most Likely Outcome</span>
+              <div class="outcome-badge" id="outcome-badge">Calculating...</div>
+              <div class="outcome-subtext" id="outcome-subtext">Estimated return on investment class</div>
+            </div>
+
+            <div class="prob-section">
+              <h3 class="subsection-title">Outcome Probability Breakdown</h3>
+              <div class="prob-bars">
+                <div class="prob-bar-item">
+                  <div class="prob-bar-header">
+                    <span class="prob-name">Flop (&lt; 1x Budget)</span>
+                    <span class="prob-pct" id="prob-flop-val">0%</span>
+                  </div>
+                  <div class="bar-track">
+                    <div class="bar-fill fill-flop" id="prob-flop-bar" style="width: 0%;"></div>
+                  </div>
+                </div>
+
+                <div class="prob-bar-item">
+                  <div class="prob-bar-header">
+                    <span class="prob-name">Modest (1x - 3x Budget)</span>
+                    <span class="prob-pct" id="prob-modest-val">0%</span>
+                  </div>
+                  <div class="bar-track">
+                    <div class="bar-fill fill-modest" id="prob-modest-bar" style="width: 0%;"></div>
+                  </div>
+                </div>
+
+                <div class="prob-bar-item">
+                  <div class="prob-bar-header">
+                    <span class="prob-name">Hit (&ge; 3x Budget)</span>
+                    <span class="prob-pct" id="prob-hit-val">0%</span>
+                  </div>
+                  <div class="bar-track">
+                    <div class="bar-fill fill-hit" id="prob-hit-bar" style="width: 0%;"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="chart-section">
+              <h3 class="subsection-title">Release Timing Sensitivity</h3>
+              <p class="chart-desc">Probability of achieving "Hit" status across all 12 release months for this package.</p>
+              <div class="chart-container">
+                <canvas id="seasonality-chart"></canvas>
+              </div>
+            </div>
+
+            <div class="results-disclaimer">
+              <p class="text-xs text-muted">Probabilities are generated by a balanced Random Forest trained on 5,270 verified feature records. Estimates reflect historical patterns and exclude post-release reviews.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ==================== VIEW 2: STATISTICS ==================== -->
+    <section id="view-statistics" class="view-section">
+      
+      <div class="stats-overview-header">
+        <div>
+          <h2 class="page-title">Industry Box Office Statistics & Relationships</h2>
+          <p class="page-desc">Aggregated historical patterns, financial metrics, and relationships derived from over 5,200 commercial movies.</p>
+        </div>
+        <div class="stats-summary-pills">
+          <div class="summary-pill">
+            <span class="pill-title">Analyzed Records</span>
+            <span class="pill-value" id="stat-total-movies">5,270</span>
+          </div>
+          <div class="summary-pill">
+            <span class="pill-title">Hit Rate</span>
+            <span class="pill-value" id="stat-hit-rate">38.4%</span>
+          </div>
+          <div class="summary-pill">
+            <span class="pill-title">Peak Sales Month</span>
+            <span class="pill-value" id="stat-peak-month">June</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Charts Grid -->
+      <div class="stats-grid">
+        
+        <!-- 1. Highest-Earning Actors -->
+        <div class="card stat-card">
+          <div class="stat-card-header">
+            <h3 class="stat-card-title">1. Highest-Earning Actors</h3>
+            <span class="stat-badge">Box Office Rankings</span>
+          </div>
+          <p class="stat-card-desc">Top 10 lead actors ranked by cumulative worldwide box office revenue.</p>
+          <div class="table-container">
+            <table class="data-table" id="table-actors">
+              <thead>
+                <tr>
+                  <th>Rank</th>
+                  <th>Actor</th>
+                  <th>Total Box Office</th>
+                  <th>Avg / Film</th>
+                  <th>Films</th>
+                  <th>Hit Rate</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- Populated via JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- 2. Movies That Made the Most Money -->
+        <div class="card stat-card">
+          <div class="stat-card-header">
+            <h3 class="stat-card-title">2. Movies That Made the Most Money</h3>
+            <span class="stat-badge">All-Time Box Office</span>
+          </div>
+          <p class="stat-card-desc">Top 10 highest worldwide revenue earners in millions of USD.</p>
+          <div class="chart-container-lg">
+            <canvas id="chart-top-grossing"></canvas>
+          </div>
+        </div>
+
+        <!-- 3. Which Month Has the Most Sales -->
+        <div class="card stat-card">
+          <div class="stat-card-header">
+            <h3 class="stat-card-title">3. Which Month Has the Most Sales?</h3>
+            <span class="stat-badge">Release Timing</span>
+          </div>
+          <p class="stat-card-desc">Cumulative box office revenue (in billions USD) by calendar release month.</p>
+          <div class="chart-container-lg">
+            <canvas id="chart-monthly-sales"></canvas>
+          </div>
+        </div>
+
+        <!-- 4. Which Genre Has Better Sales -->
+        <div class="card stat-card">
+          <div class="stat-card-header">
+            <h3 class="stat-card-title">4. Which Genre Has Better Sales?</h3>
+            <span class="stat-badge">Commercial Performance</span>
+          </div>
+          <p class="stat-card-desc">Comparison of total revenue (in billions USD) and median return on investment per genre.</p>
+          <div class="chart-container-lg">
+            <canvas id="chart-genre-sales"></canvas>
+          </div>
+        </div>
+
+        <!-- 5. Which Director is Leading -->
+        <div class="card stat-card">
+          <div class="stat-card-header">
+            <h3 class="stat-card-title">5. Leading Directors by Cumulative Box Office</h3>
+            <span class="stat-badge">Creative Track Record</span>
+          </div>
+          <p class="stat-card-desc">Directors with at least 4 catalog titles, ranked by total gross and hit percentage.</p>
+          <div class="chart-container-lg">
+            <canvas id="chart-top-directors"></canvas>
+          </div>
+        </div>
+
+        <!-- 6. Relationships & Outcome Distributions -->
+        <div class="card stat-card">
+          <div class="stat-card-header">
+            <h3 class="stat-card-title">6. Industry Outcome Breakdown & Budget Relationship</h3>
+            <span class="stat-badge">Macro Distribution</span>
+          </div>
+          <p class="stat-card-desc">Proportions of Flop (&lt;1x), Modest (1-3x), and Hit (&ge;3x) across all commercial releases.</p>
+          <div class="chart-split-container">
+            <div class="chart-half">
+              <canvas id="chart-outcome-dist"></canvas>
+            </div>
+            <div class="stat-facts">
+              <div class="fact-item">
+                <span class="fact-label">Flop Proportion</span>
+                <span class="fact-num text-danger">36.8%</span>
+                <span class="fact-note">Revenues fail to cover standard production budgets.</span>
+              </div>
+              <div class="fact-item">
+                <span class="fact-label">Modest Return</span>
+                <span class="fact-num text-warning">24.8%</span>
+                <span class="fact-note">Break-even to modest profitability (1x - 3x budget).</span>
+              </div>
+              <div class="fact-item">
+                <span class="fact-label">Hit Status</span>
+                <span class="fact-num text-success">38.4%</span>
+                <span class="fact-note">Revenues exceed 300% of production investment.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="app-footer">
+    <p>Greenlight Simulator &middot; Advanced Predictive Analysis System &middot; Machine Learning Pipeline without Post-Release Leakage</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,2008 @@
+{
+  "total_movies": 5270,
+  "top_actors": [
+    {
+      "actor": "Emma Watson",
+      "total_revenue_billions": 9.46,
+      "avg_revenue_millions": 630.7,
+      "movies_count": 15,
+      "hits_count": 9,
+      "hit_rate_pct": 60.0
+    },
+    {
+      "actor": "Tom Cruise",
+      "total_revenue_billions": 9.34,
+      "avg_revenue_millions": 274.7,
+      "movies_count": 34,
+      "hits_count": 20,
+      "hit_rate_pct": 58.8
+    },
+    {
+      "actor": "Johnny Depp",
+      "total_revenue_billions": 9.05,
+      "avg_revenue_millions": 244.5,
+      "movies_count": 37,
+      "hits_count": 10,
+      "hit_rate_pct": 27.0
+    },
+    {
+      "actor": "Tom Hanks",
+      "total_revenue_billions": 8.8,
+      "avg_revenue_millions": 231.5,
+      "movies_count": 38,
+      "hits_count": 22,
+      "hit_rate_pct": 57.9
+    },
+    {
+      "actor": "Robert Downey Jr.",
+      "total_revenue_billions": 8.29,
+      "avg_revenue_millions": 395.0,
+      "movies_count": 21,
+      "hits_count": 9,
+      "hit_rate_pct": 42.9
+    },
+    {
+      "actor": "Daniel Radcliffe",
+      "total_revenue_billions": 7.88,
+      "avg_revenue_millions": 606.3,
+      "movies_count": 13,
+      "hits_count": 9,
+      "hit_rate_pct": 69.2
+    },
+    {
+      "actor": "Ian McKellen",
+      "total_revenue_billions": 7.85,
+      "avg_revenue_millions": 654.5,
+      "movies_count": 12,
+      "hits_count": 9,
+      "hit_rate_pct": 75.0
+    },
+    {
+      "actor": "Rupert Grint",
+      "total_revenue_billions": 7.71,
+      "avg_revenue_millions": 771.1,
+      "movies_count": 10,
+      "hits_count": 8,
+      "hit_rate_pct": 80.0
+    },
+    {
+      "actor": "Will Smith",
+      "total_revenue_billions": 7.5,
+      "avg_revenue_millions": 356.9,
+      "movies_count": 21,
+      "hits_count": 12,
+      "hit_rate_pct": 57.1
+    },
+    {
+      "actor": "Dwayne Johnson",
+      "total_revenue_billions": 7.27,
+      "avg_revenue_millions": 290.9,
+      "movies_count": 25,
+      "hits_count": 9,
+      "hit_rate_pct": 36.0
+    }
+  ],
+  "top_grossing": [
+    {
+      "title": "Avatar",
+      "year": 2009,
+      "revenue": 2787965087.0,
+      "revenue_millions": 2788.0,
+      "budget_millions": 237.0,
+      "roi": 11.76
+    },
+    {
+      "title": "Star Wars: The Force Awakens",
+      "year": 2015,
+      "revenue": 2068223624.0,
+      "revenue_millions": 2068.2,
+      "budget_millions": 245.0,
+      "roi": 8.44
+    },
+    {
+      "title": "Titanic",
+      "year": 1997,
+      "revenue": 1845034188.0,
+      "revenue_millions": 1845.0,
+      "budget_millions": 200.0,
+      "roi": 9.23
+    },
+    {
+      "title": "The Avengers",
+      "year": 2012,
+      "revenue": 1519557910.0,
+      "revenue_millions": 1519.6,
+      "budget_millions": 220.0,
+      "roi": 6.91
+    },
+    {
+      "title": "Jurassic World",
+      "year": 2015,
+      "revenue": 1513528810.0,
+      "revenue_millions": 1513.5,
+      "budget_millions": 150.0,
+      "roi": 10.09
+    },
+    {
+      "title": "Furious 7",
+      "year": 2015,
+      "revenue": 1506249360.0,
+      "revenue_millions": 1506.2,
+      "budget_millions": 190.0,
+      "roi": 7.93
+    },
+    {
+      "title": "Avengers: Age of Ultron",
+      "year": 2015,
+      "revenue": 1405403694.0,
+      "revenue_millions": 1405.4,
+      "budget_millions": 280.0,
+      "roi": 5.02
+    },
+    {
+      "title": "Harry Potter and the Deathly Hallows: Part 2",
+      "year": 2011,
+      "revenue": 1342000000.0,
+      "revenue_millions": 1342.0,
+      "budget_millions": 125.0,
+      "roi": 10.74
+    },
+    {
+      "title": "Frozen",
+      "year": 2013,
+      "revenue": 1274219009.0,
+      "revenue_millions": 1274.2,
+      "budget_millions": 150.0,
+      "roi": 8.49
+    },
+    {
+      "title": "Beauty and the Beast",
+      "year": 2017,
+      "revenue": 1262886337.0,
+      "revenue_millions": 1262.9,
+      "budget_millions": 160.0,
+      "roi": 7.89
+    }
+  ],
+  "monthly_sales": [
+    {
+      "month_num": 1,
+      "month_name": "January",
+      "total_revenue_billions": 14.75,
+      "avg_revenue_millions": 44.2,
+      "movie_count": 334
+    },
+    {
+      "month_num": 2,
+      "month_name": "February",
+      "total_revenue_billions": 24.87,
+      "avg_revenue_millions": 69.7,
+      "movie_count": 357
+    },
+    {
+      "month_num": 3,
+      "month_name": "March",
+      "total_revenue_billions": 35.0,
+      "avg_revenue_millions": 89.3,
+      "movie_count": 392
+    },
+    {
+      "month_num": 4,
+      "month_name": "April",
+      "total_revenue_billions": 33.04,
+      "avg_revenue_millions": 84.3,
+      "movie_count": 392
+    },
+    {
+      "month_num": 5,
+      "month_name": "May",
+      "total_revenue_billions": 55.97,
+      "avg_revenue_millions": 136.5,
+      "movie_count": 410
+    },
+    {
+      "month_num": 6,
+      "month_name": "June",
+      "total_revenue_billions": 70.32,
+      "avg_revenue_millions": 155.6,
+      "movie_count": 452
+    },
+    {
+      "month_num": 7,
+      "month_name": "July",
+      "total_revenue_billions": 50.4,
+      "avg_revenue_millions": 118.3,
+      "movie_count": 426
+    },
+    {
+      "month_num": 8,
+      "month_name": "August",
+      "total_revenue_billions": 27.36,
+      "avg_revenue_millions": 59.5,
+      "movie_count": 460
+    },
+    {
+      "month_num": 9,
+      "month_name": "September",
+      "total_revenue_billions": 27.69,
+      "avg_revenue_millions": 45.5,
+      "movie_count": 608
+    },
+    {
+      "month_num": 10,
+      "month_name": "October",
+      "total_revenue_billions": 31.98,
+      "avg_revenue_millions": 66.1,
+      "movie_count": 484
+    },
+    {
+      "month_num": 11,
+      "month_name": "November",
+      "total_revenue_billions": 50.21,
+      "avg_revenue_millions": 122.8,
+      "movie_count": 409
+    },
+    {
+      "month_num": 12,
+      "month_name": "December",
+      "total_revenue_billions": 64.03,
+      "avg_revenue_millions": 117.3,
+      "movie_count": 546
+    }
+  ],
+  "genre_sales": [
+    {
+      "genre": "Action",
+      "total_revenue_billions": 196.43,
+      "avg_revenue_millions": 140.7,
+      "avg_budget_millions": 50.3,
+      "avg_roi": 2.03,
+      "count": 1396
+    },
+    {
+      "genre": "Adventure",
+      "total_revenue_billions": 196.06,
+      "avg_revenue_millions": 207.3,
+      "avg_budget_millions": 64.6,
+      "avg_roi": 2.3,
+      "count": 946
+    },
+    {
+      "genre": "Comedy",
+      "total_revenue_billions": 154.54,
+      "avg_revenue_millions": 85.3,
+      "avg_budget_millions": 28.8,
+      "avg_roi": 2.12,
+      "count": 1811
+    },
+    {
+      "genre": "Drama",
+      "total_revenue_billions": 149.56,
+      "avg_revenue_millions": 59.2,
+      "avg_budget_millions": 22.8,
+      "avg_roi": 1.78,
+      "count": 2525
+    },
+    {
+      "genre": "Thriller",
+      "total_revenue_billions": 125.99,
+      "avg_revenue_millions": 85.5,
+      "avg_budget_millions": 32.9,
+      "avg_roi": 2.0,
+      "count": 1474
+    },
+    {
+      "genre": "Family",
+      "total_revenue_billions": 103.53,
+      "avg_revenue_millions": 197.2,
+      "avg_budget_millions": 58.5,
+      "avg_roi": 2.48,
+      "count": 525
+    },
+    {
+      "genre": "Fantasy",
+      "total_revenue_billions": 101.47,
+      "avg_revenue_millions": 201.3,
+      "avg_budget_millions": 62.6,
+      "avg_roi": 2.15,
+      "count": 504
+    },
+    {
+      "genre": "Science Fiction",
+      "total_revenue_billions": 96.56,
+      "avg_revenue_millions": 153.8,
+      "avg_budget_millions": 52.8,
+      "avg_roi": 2.01,
+      "count": 628
+    },
+    {
+      "genre": "Romance",
+      "total_revenue_billions": 67.62,
+      "avg_revenue_millions": 68.8,
+      "avg_budget_millions": 22.0,
+      "avg_roi": 2.12,
+      "count": 983
+    },
+    {
+      "genre": "Animation",
+      "total_revenue_billions": 65.47,
+      "avg_revenue_millions": 225.7,
+      "avg_budget_millions": 64.1,
+      "avg_roi": 2.77,
+      "count": 290
+    },
+    {
+      "genre": "Crime",
+      "total_revenue_billions": 60.19,
+      "avg_revenue_millions": 71.1,
+      "avg_budget_millions": 28.4,
+      "avg_roi": 1.9,
+      "count": 846
+    },
+    {
+      "genre": "Mystery",
+      "total_revenue_billions": 33.38,
+      "avg_revenue_millions": 76.2,
+      "avg_budget_millions": 29.8,
+      "avg_roi": 1.76,
+      "count": 438
+    },
+    {
+      "genre": "Horror",
+      "total_revenue_billions": 29.79,
+      "avg_revenue_millions": 51.5,
+      "avg_budget_millions": 16.6,
+      "avg_roi": 2.52,
+      "count": 578
+    },
+    {
+      "genre": "War",
+      "total_revenue_billions": 15.67,
+      "avg_revenue_millions": 78.0,
+      "avg_budget_millions": 32.2,
+      "avg_roi": 1.96,
+      "count": 201
+    },
+    {
+      "genre": "History",
+      "total_revenue_billions": 14.51,
+      "avg_revenue_millions": 62.5,
+      "avg_budget_millions": 30.4,
+      "avg_roi": 1.75,
+      "count": 232
+    },
+    {
+      "genre": "Music",
+      "total_revenue_billions": 12.79,
+      "avg_revenue_millions": 67.7,
+      "avg_budget_millions": 20.2,
+      "avg_roi": 2.45,
+      "count": 189
+    },
+    {
+      "genre": "Western",
+      "total_revenue_billions": 4.85,
+      "avg_revenue_millions": 55.8,
+      "avg_budget_millions": 30.1,
+      "avg_roi": 1.82,
+      "count": 87
+    },
+    {
+      "genre": "Documentary",
+      "total_revenue_billions": 1.03,
+      "avg_revenue_millions": 19.2,
+      "avg_budget_millions": 4.7,
+      "avg_roi": 2.66,
+      "count": 54
+    },
+    {
+      "genre": "Foreign",
+      "total_revenue_billions": 0.14,
+      "avg_revenue_millions": 4.9,
+      "avg_budget_millions": 3.6,
+      "avg_roi": 1.17,
+      "count": 28
+    }
+  ],
+  "top_directors": [
+    {
+      "director": "Steven Spielberg",
+      "total_revenue_billions": 9.26,
+      "avg_revenue_millions": 308.6,
+      "movies_count": 30,
+      "hits_count": 20,
+      "hit_rate_pct": 66.7
+    },
+    {
+      "director": "Peter Jackson",
+      "total_revenue_billions": 6.53,
+      "avg_revenue_millions": 593.5,
+      "movies_count": 11,
+      "hits_count": 6,
+      "hit_rate_pct": 54.5
+    },
+    {
+      "director": "Michael Bay",
+      "total_revenue_billions": 6.44,
+      "avg_revenue_millions": 495.2,
+      "movies_count": 13,
+      "hits_count": 9,
+      "hit_rate_pct": 69.2
+    },
+    {
+      "director": "James Cameron",
+      "total_revenue_billions": 5.9,
+      "avg_revenue_millions": 737.6,
+      "movies_count": 8,
+      "hits_count": 6,
+      "hit_rate_pct": 75.0
+    },
+    {
+      "director": "David Yates",
+      "total_revenue_billions": 5.33,
+      "avg_revenue_millions": 889.1,
+      "movies_count": 6,
+      "hits_count": 5,
+      "hit_rate_pct": 83.3
+    },
+    {
+      "director": "Christopher Nolan",
+      "total_revenue_billions": 4.75,
+      "avg_revenue_millions": 527.5,
+      "movies_count": 9,
+      "hits_count": 6,
+      "hit_rate_pct": 66.7
+    },
+    {
+      "director": "Robert Zemeckis",
+      "total_revenue_billions": 4.14,
+      "avg_revenue_millions": 243.4,
+      "movies_count": 17,
+      "hits_count": 8,
+      "hit_rate_pct": 47.1
+    },
+    {
+      "director": "Tim Burton",
+      "total_revenue_billions": 4.03,
+      "avg_revenue_millions": 224.1,
+      "movies_count": 18,
+      "hits_count": 8,
+      "hit_rate_pct": 44.4
+    },
+    {
+      "director": "Ridley Scott",
+      "total_revenue_billions": 3.92,
+      "avg_revenue_millions": 170.3,
+      "movies_count": 23,
+      "hits_count": 5,
+      "hit_rate_pct": 21.7
+    },
+    {
+      "director": "Roland Emmerich",
+      "total_revenue_billions": 3.8,
+      "avg_revenue_millions": 345.3,
+      "movies_count": 11,
+      "hits_count": 4,
+      "hit_rate_pct": 36.4
+    }
+  ],
+  "outcome_distribution": [
+    {
+      "name": "Flop (<1x)",
+      "count": 1540,
+      "pct": 29.2
+    },
+    {
+      "name": "Modest (1-3x)",
+      "count": 1813,
+      "pct": 34.4
+    },
+    {
+      "name": "Hit (>=3x)",
+      "count": 1917,
+      "pct": 36.4
+    }
+  ],
+  "budget_vs_revenue": [
+    {
+      "title": "From Paris with Love",
+      "budget_millions": 52.0,
+      "revenue_millions": 52.8,
+      "target": 1
+    },
+    {
+      "title": "The Unholy Three",
+      "budget_millions": 0.1,
+      "revenue_millions": 0.7,
+      "target": 2
+    },
+    {
+      "title": "Bound",
+      "budget_millions": 4.5,
+      "revenue_millions": 7.0,
+      "target": 1
+    },
+    {
+      "title": "Land of the Lost",
+      "budget_millions": 100.0,
+      "revenue_millions": 68.7,
+      "target": 0
+    },
+    {
+      "title": "Gifted",
+      "budget_millions": 7.0,
+      "revenue_millions": 37.5,
+      "target": 2
+    },
+    {
+      "title": "Once Upon a Time in Mexico",
+      "budget_millions": 29.0,
+      "revenue_millions": 98.2,
+      "target": 2
+    },
+    {
+      "title": "Alive",
+      "budget_millions": 32.0,
+      "revenue_millions": 36.7,
+      "target": 1
+    },
+    {
+      "title": "Incendies",
+      "budget_millions": 6.8,
+      "revenue_millions": 7.1,
+      "target": 1
+    },
+    {
+      "title": "The DUFF",
+      "budget_millions": 8.5,
+      "revenue_millions": 43.5,
+      "target": 2
+    },
+    {
+      "title": "The Fall of the Roman Empire",
+      "budget_millions": 19.0,
+      "revenue_millions": 4.8,
+      "target": 0
+    },
+    {
+      "title": "Tomorrow Never Dies",
+      "budget_millions": 110.0,
+      "revenue_millions": 333.0,
+      "target": 2
+    },
+    {
+      "title": "The Rundown",
+      "budget_millions": 85.0,
+      "revenue_millions": 80.9,
+      "target": 0
+    },
+    {
+      "title": "Notting Hill",
+      "budget_millions": 42.0,
+      "revenue_millions": 363.9,
+      "target": 2
+    },
+    {
+      "title": "The Avengers",
+      "budget_millions": 60.0,
+      "revenue_millions": 48.6,
+      "target": 0
+    },
+    {
+      "title": "Queen of the Damned",
+      "budget_millions": 35.0,
+      "revenue_millions": 45.5,
+      "target": 1
+    },
+    {
+      "title": "Halloween III: Season of the Witch",
+      "budget_millions": 2.5,
+      "revenue_millions": 14.4,
+      "target": 2
+    },
+    {
+      "title": "Tower Heist",
+      "budget_millions": 75.0,
+      "revenue_millions": 152.9,
+      "target": 1
+    },
+    {
+      "title": "Drive Me Crazy",
+      "budget_millions": 8.0,
+      "revenue_millions": 22.6,
+      "target": 1
+    },
+    {
+      "title": "Friday the 13th",
+      "budget_millions": 0.6,
+      "revenue_millions": 59.8,
+      "target": 2
+    },
+    {
+      "title": "Rumor Has It...",
+      "budget_millions": 70.0,
+      "revenue_millions": 88.9,
+      "target": 1
+    },
+    {
+      "title": "Tangerine",
+      "budget_millions": 0.1,
+      "revenue_millions": 0.7,
+      "target": 2
+    },
+    {
+      "title": "Mata Hari",
+      "budget_millions": 0.6,
+      "revenue_millions": 2.2,
+      "target": 2
+    },
+    {
+      "title": "Taken 2",
+      "budget_millions": 45.0,
+      "revenue_millions": 376.1,
+      "target": 2
+    },
+    {
+      "title": "How to Be Single",
+      "budget_millions": 38.0,
+      "revenue_millions": 112.3,
+      "target": 1
+    },
+    {
+      "title": "Sex Tape",
+      "budget_millions": 40.0,
+      "revenue_millions": 126.1,
+      "target": 2
+    },
+    {
+      "title": "The Lion King",
+      "budget_millions": 45.0,
+      "revenue_millions": 788.2,
+      "target": 2
+    },
+    {
+      "title": "Friday the 13th: The Final Chapter",
+      "budget_millions": 2.6,
+      "revenue_millions": 33.0,
+      "target": 2
+    },
+    {
+      "title": "The Girl Who Kicked the Hornet's Nest",
+      "budget_millions": 4.0,
+      "revenue_millions": 43.5,
+      "target": 2
+    },
+    {
+      "title": "Nothing but Trouble",
+      "budget_millions": 40.0,
+      "revenue_millions": 8.5,
+      "target": 0
+    },
+    {
+      "title": "Swiss Army Man",
+      "budget_millions": 3.0,
+      "revenue_millions": 4.2,
+      "target": 1
+    },
+    {
+      "title": "Super Troopers",
+      "budget_millions": 3.0,
+      "revenue_millions": 18.5,
+      "target": 2
+    },
+    {
+      "title": "The Man Who Loved Women",
+      "budget_millions": 19.0,
+      "revenue_millions": 11.0,
+      "target": 0
+    },
+    {
+      "title": "Warm Bodies",
+      "budget_millions": 35.0,
+      "revenue_millions": 117.0,
+      "target": 2
+    },
+    {
+      "title": "A Mighty Wind",
+      "budget_millions": 6.0,
+      "revenue_millions": 18.8,
+      "target": 2
+    },
+    {
+      "title": "A Nightmare on Elm Street 4: The Dream Master",
+      "budget_millions": 7.0,
+      "revenue_millions": 72.5,
+      "target": 2
+    },
+    {
+      "title": "Scarlet Street",
+      "budget_millions": 1.2,
+      "revenue_millions": 2.9,
+      "target": 1
+    },
+    {
+      "title": "Funny People",
+      "budget_millions": 75.0,
+      "revenue_millions": 61.5,
+      "target": 0
+    },
+    {
+      "title": "Doctor Strange",
+      "budget_millions": 165.0,
+      "revenue_millions": 677.7,
+      "target": 2
+    },
+    {
+      "title": "The Majestic",
+      "budget_millions": 72.0,
+      "revenue_millions": 37.3,
+      "target": 0
+    },
+    {
+      "title": "Sanctum",
+      "budget_millions": 30.0,
+      "revenue_millions": 108.6,
+      "target": 2
+    },
+    {
+      "title": "Flags of Our Fathers",
+      "budget_millions": 90.0,
+      "revenue_millions": 65.9,
+      "target": 0
+    },
+    {
+      "title": "Dude, Where\u2019s My Car?",
+      "budget_millions": 13.0,
+      "revenue_millions": 73.2,
+      "target": 2
+    },
+    {
+      "title": "Cocktail",
+      "budget_millions": 6.4,
+      "revenue_millions": 18.8,
+      "target": 1
+    },
+    {
+      "title": "Psycho",
+      "budget_millions": 60.0,
+      "revenue_millions": 37.1,
+      "target": 0
+    },
+    {
+      "title": "The Nun's Story",
+      "budget_millions": 3.5,
+      "revenue_millions": 12.8,
+      "target": 2
+    },
+    {
+      "title": "Lucy",
+      "budget_millions": 40.0,
+      "revenue_millions": 126.5,
+      "target": 2
+    },
+    {
+      "title": "The Covenant",
+      "budget_millions": 20.0,
+      "revenue_millions": 37.6,
+      "target": 1
+    },
+    {
+      "title": "Stir of Echoes",
+      "budget_millions": 12.0,
+      "revenue_millions": 21.1,
+      "target": 1
+    },
+    {
+      "title": "Master and Commander: The Far Side of the World",
+      "budget_millions": 150.0,
+      "revenue_millions": 212.0,
+      "target": 1
+    },
+    {
+      "title": "The Innkeepers",
+      "budget_millions": 0.8,
+      "revenue_millions": 0.1,
+      "target": 0
+    },
+    {
+      "title": "Halloween: H20",
+      "budget_millions": 17.0,
+      "revenue_millions": 55.0,
+      "target": 2
+    },
+    {
+      "title": "The Arrival",
+      "budget_millions": 25.0,
+      "revenue_millions": 14.0,
+      "target": 0
+    },
+    {
+      "title": "Rocky II",
+      "budget_millions": 7.0,
+      "revenue_millions": 200.2,
+      "target": 2
+    },
+    {
+      "title": "Ender's Game",
+      "budget_millions": 110.0,
+      "revenue_millions": 125.5,
+      "target": 1
+    },
+    {
+      "title": "Dragon Wars: D-War",
+      "budget_millions": 70.0,
+      "revenue_millions": 53.6,
+      "target": 0
+    },
+    {
+      "title": "Song One",
+      "budget_millions": 6.0,
+      "revenue_millions": 0.0,
+      "target": 0
+    },
+    {
+      "title": "Made",
+      "budget_millions": 5.0,
+      "revenue_millions": 5.5,
+      "target": 1
+    },
+    {
+      "title": "Mustang",
+      "budget_millions": 1.3,
+      "revenue_millions": 0.2,
+      "target": 0
+    },
+    {
+      "title": "The Lost Weekend",
+      "budget_millions": 1.2,
+      "revenue_millions": 11.0,
+      "target": 2
+    },
+    {
+      "title": "Ice Age: The Meltdown",
+      "budget_millions": 80.0,
+      "revenue_millions": 660.9,
+      "target": 2
+    },
+    {
+      "title": "Desperately Seeking Susan",
+      "budget_millions": 5.0,
+      "revenue_millions": 27.4,
+      "target": 2
+    },
+    {
+      "title": "Visaranai",
+      "budget_millions": 0.3,
+      "revenue_millions": 1.6,
+      "target": 2
+    },
+    {
+      "title": "The Box",
+      "budget_millions": 30.0,
+      "revenue_millions": 33.3,
+      "target": 1
+    },
+    {
+      "title": "A Star Is Born",
+      "budget_millions": 6.0,
+      "revenue_millions": 161.0,
+      "target": 2
+    },
+    {
+      "title": "Ice Age: Dawn of the Dinosaurs",
+      "budget_millions": 90.0,
+      "revenue_millions": 886.7,
+      "target": 2
+    },
+    {
+      "title": "Squeeze",
+      "budget_millions": 0.5,
+      "revenue_millions": 0.0,
+      "target": 0
+    },
+    {
+      "title": "The Longest Yard",
+      "budget_millions": 82.0,
+      "revenue_millions": 190.3,
+      "target": 1
+    },
+    {
+      "title": "The Craft",
+      "budget_millions": 15.0,
+      "revenue_millions": 24.8,
+      "target": 1
+    },
+    {
+      "title": "As Above, So Below",
+      "budget_millions": 5.0,
+      "revenue_millions": 40.1,
+      "target": 2
+    },
+    {
+      "title": "Tomcats",
+      "budget_millions": 11.0,
+      "revenue_millions": 23.4,
+      "target": 1
+    },
+    {
+      "title": "Major Dundee",
+      "budget_millions": 3.8,
+      "revenue_millions": 0.0,
+      "target": 0
+    },
+    {
+      "title": "Toy Story 2",
+      "budget_millions": 90.0,
+      "revenue_millions": 497.4,
+      "target": 2
+    },
+    {
+      "title": "Lost in Translation",
+      "budget_millions": 4.0,
+      "revenue_millions": 119.7,
+      "target": 2
+    },
+    {
+      "title": "Before I Go to Sleep",
+      "budget_millions": 22.0,
+      "revenue_millions": 15.4,
+      "target": 0
+    },
+    {
+      "title": "Coming to America",
+      "budget_millions": 39.0,
+      "revenue_millions": 288.8,
+      "target": 2
+    },
+    {
+      "title": "Rings",
+      "budget_millions": 25.0,
+      "revenue_millions": 83.1,
+      "target": 2
+    },
+    {
+      "title": "The In-Laws",
+      "budget_millions": 9.0,
+      "revenue_millions": 38.2,
+      "target": 2
+    },
+    {
+      "title": "Safe",
+      "budget_millions": 30.0,
+      "revenue_millions": 40.3,
+      "target": 1
+    },
+    {
+      "title": "A Bug's Life",
+      "budget_millions": 120.0,
+      "revenue_millions": 363.3,
+      "target": 2
+    },
+    {
+      "title": "Double Jeopardy",
+      "budget_millions": 70.0,
+      "revenue_millions": 177.8,
+      "target": 1
+    },
+    {
+      "title": "Paris Can Wait",
+      "budget_millions": 5.0,
+      "revenue_millions": 6.7,
+      "target": 1
+    },
+    {
+      "title": "If I Stay",
+      "budget_millions": 11.0,
+      "revenue_millions": 78.9,
+      "target": 2
+    },
+    {
+      "title": "2 Days in New York",
+      "budget_millions": 8.0,
+      "revenue_millions": 1.7,
+      "target": 0
+    },
+    {
+      "title": "Roadgames",
+      "budget_millions": 1.8,
+      "revenue_millions": 0.1,
+      "target": 0
+    },
+    {
+      "title": "Cape Fear",
+      "budget_millions": 35.0,
+      "revenue_millions": 182.3,
+      "target": 2
+    },
+    {
+      "title": "Traitor",
+      "budget_millions": 22.0,
+      "revenue_millions": 23.5,
+      "target": 1
+    },
+    {
+      "title": "The Boy",
+      "budget_millions": 10.0,
+      "revenue_millions": 64.2,
+      "target": 2
+    },
+    {
+      "title": "The Guardian",
+      "budget_millions": 70.0,
+      "revenue_millions": 55.0,
+      "target": 0
+    },
+    {
+      "title": "A Scanner Darkly",
+      "budget_millions": 8.7,
+      "revenue_millions": 7.7,
+      "target": 0
+    },
+    {
+      "title": "The Departed",
+      "budget_millions": 90.0,
+      "revenue_millions": 289.8,
+      "target": 2
+    },
+    {
+      "title": "Hairspray",
+      "budget_millions": 50.0,
+      "revenue_millions": 90.5,
+      "target": 1
+    },
+    {
+      "title": "Year of the Dragon",
+      "budget_millions": 24.0,
+      "revenue_millions": 18.7,
+      "target": 0
+    },
+    {
+      "title": "The Best Years of Our Lives",
+      "budget_millions": 2.1,
+      "revenue_millions": 23.6,
+      "target": 2
+    },
+    {
+      "title": "Basic Instinct 2",
+      "budget_millions": 70.0,
+      "revenue_millions": 38.6,
+      "target": 0
+    },
+    {
+      "title": "Ponyo",
+      "budget_millions": 41.7,
+      "revenue_millions": 187.5,
+      "target": 2
+    },
+    {
+      "title": "Boys Don't Cry",
+      "budget_millions": 2.0,
+      "revenue_millions": 11.5,
+      "target": 2
+    },
+    {
+      "title": "Doctor Dolittle",
+      "budget_millions": 71.0,
+      "revenue_millions": 294.5,
+      "target": 2
+    },
+    {
+      "title": "Fear and Loathing in Las Vegas",
+      "budget_millions": 18.5,
+      "revenue_millions": 10.7,
+      "target": 0
+    },
+    {
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "budget_millions": 50.0,
+      "revenue_millions": 104.5,
+      "target": 1
+    },
+    {
+      "title": "Shoot 'Em Up",
+      "budget_millions": 39.0,
+      "revenue_millions": 26.8,
+      "target": 0
+    },
+    {
+      "title": "American Ninja",
+      "budget_millions": 1.0,
+      "revenue_millions": 10.5,
+      "target": 2
+    },
+    {
+      "title": "The Spy Next Door",
+      "budget_millions": 28.0,
+      "revenue_millions": 45.2,
+      "target": 1
+    },
+    {
+      "title": "Your Highness",
+      "budget_millions": 49.9,
+      "revenue_millions": 26.1,
+      "target": 0
+    },
+    {
+      "title": "Death Wish",
+      "budget_millions": 3.0,
+      "revenue_millions": 22.0,
+      "target": 2
+    },
+    {
+      "title": "The Opposite Sex",
+      "budget_millions": 3.3,
+      "revenue_millions": 0.0,
+      "target": 0
+    },
+    {
+      "title": "Attack the Block",
+      "budget_millions": 14.4,
+      "revenue_millions": 4.0,
+      "target": 0
+    },
+    {
+      "title": "Hoodwinked!",
+      "budget_millions": 15.0,
+      "revenue_millions": 51.1,
+      "target": 2
+    },
+    {
+      "title": "30 Minutes or Less",
+      "budget_millions": 28.0,
+      "revenue_millions": 40.5,
+      "target": 1
+    },
+    {
+      "title": "The Gauntlet",
+      "budget_millions": 5.5,
+      "revenue_millions": 26.4,
+      "target": 2
+    },
+    {
+      "title": "I'm No Angel",
+      "budget_millions": 0.2,
+      "revenue_millions": 2.9,
+      "target": 2
+    },
+    {
+      "title": "The Bucket List",
+      "budget_millions": 45.0,
+      "revenue_millions": 175.4,
+      "target": 2
+    },
+    {
+      "title": "Matchstick Men",
+      "budget_millions": 62.0,
+      "revenue_millions": 65.6,
+      "target": 1
+    },
+    {
+      "title": "The Marine",
+      "budget_millions": 20.0,
+      "revenue_millions": 22.2,
+      "target": 1
+    },
+    {
+      "title": "Renaissance",
+      "budget_millions": 18.0,
+      "revenue_millions": 1.8,
+      "target": 0
+    },
+    {
+      "title": "Full Metal Jacket",
+      "budget_millions": 17.0,
+      "revenue_millions": 46.4,
+      "target": 1
+    },
+    {
+      "title": "National Lampoon\u2019s Van Wilder",
+      "budget_millions": 5.0,
+      "revenue_millions": 38.3,
+      "target": 2
+    },
+    {
+      "title": "Kung Fu Yoga",
+      "budget_millions": 65.0,
+      "revenue_millions": 254.2,
+      "target": 2
+    },
+    {
+      "title": "Antikiller",
+      "budget_millions": 5.0,
+      "revenue_millions": 0.3,
+      "target": 0
+    },
+    {
+      "title": "Honey, I Shrunk the Kids",
+      "budget_millions": 32.0,
+      "revenue_millions": 222.7,
+      "target": 2
+    },
+    {
+      "title": "Firefox",
+      "budget_millions": 18.0,
+      "revenue_millions": 70.7,
+      "target": 2
+    },
+    {
+      "title": "Without Limits",
+      "budget_millions": 25.0,
+      "revenue_millions": 0.8,
+      "target": 0
+    },
+    {
+      "title": "Rocky IV",
+      "budget_millions": 31.0,
+      "revenue_millions": 300.5,
+      "target": 2
+    },
+    {
+      "title": "The Interceptor",
+      "budget_millions": 7.0,
+      "revenue_millions": 1.9,
+      "target": 0
+    },
+    {
+      "title": "Latter Days",
+      "budget_millions": 0.8,
+      "revenue_millions": 0.8,
+      "target": 0
+    },
+    {
+      "title": "Ride Along",
+      "budget_millions": 25.0,
+      "revenue_millions": 154.0,
+      "target": 2
+    },
+    {
+      "title": "Once Upon a Time in the West",
+      "budget_millions": 5.0,
+      "revenue_millions": 5.3,
+      "target": 1
+    },
+    {
+      "title": "The Object of My Affection",
+      "budget_millions": 15.0,
+      "revenue_millions": 46.9,
+      "target": 2
+    },
+    {
+      "title": "Star Wars",
+      "budget_millions": 11.0,
+      "revenue_millions": 775.4,
+      "target": 2
+    },
+    {
+      "title": "Act of Valor",
+      "budget_millions": 12.0,
+      "revenue_millions": 81.3,
+      "target": 2
+    },
+    {
+      "title": "The Double Hour",
+      "budget_millions": 3.9,
+      "revenue_millions": 4.3,
+      "target": 1
+    },
+    {
+      "title": "Ghosts of the Abyss",
+      "budget_millions": 13.0,
+      "revenue_millions": 17.0,
+      "target": 1
+    },
+    {
+      "title": "I'm So Excited!",
+      "budget_millions": 5.0,
+      "revenue_millions": 11.7,
+      "target": 1
+    },
+    {
+      "title": "Razorback",
+      "budget_millions": 5.5,
+      "revenue_millions": 0.8,
+      "target": 0
+    },
+    {
+      "title": "Honey I Blew Up the Kid",
+      "budget_millions": 40.0,
+      "revenue_millions": 58.7,
+      "target": 1
+    },
+    {
+      "title": "Road to Nowhere",
+      "budget_millions": 5.0,
+      "revenue_millions": 0.0,
+      "target": 0
+    },
+    {
+      "title": "National Lampoon's Vacation",
+      "budget_millions": 15.0,
+      "revenue_millions": 61.4,
+      "target": 2
+    },
+    {
+      "title": "Total Recall",
+      "budget_millions": 125.0,
+      "revenue_millions": 198.8,
+      "target": 1
+    },
+    {
+      "title": "Alice in Wonderland",
+      "budget_millions": 3.0,
+      "revenue_millions": 572.0,
+      "target": 2
+    },
+    {
+      "title": "Some Like It Hot",
+      "budget_millions": 2.9,
+      "revenue_millions": 25.0,
+      "target": 2
+    },
+    {
+      "title": "The Fast and the Furious",
+      "budget_millions": 38.0,
+      "revenue_millions": 207.3,
+      "target": 2
+    },
+    {
+      "title": "The Kid",
+      "budget_millions": 65.0,
+      "revenue_millions": 69.7,
+      "target": 1
+    },
+    {
+      "title": "Billy Lynn's Long Halftime Walk",
+      "budget_millions": 40.0,
+      "revenue_millions": 30.9,
+      "target": 0
+    },
+    {
+      "title": "Rear Window",
+      "budget_millions": 1.0,
+      "revenue_millions": 36.8,
+      "target": 2
+    },
+    {
+      "title": "Extreme Ops",
+      "budget_millions": 40.0,
+      "revenue_millions": 11.0,
+      "target": 0
+    },
+    {
+      "title": "Eastern Promises",
+      "budget_millions": 51.5,
+      "revenue_millions": 55.1,
+      "target": 1
+    },
+    {
+      "title": "Snow Flower and the Secret Fan",
+      "budget_millions": 0.1,
+      "revenue_millions": 1.3,
+      "target": 2
+    },
+    {
+      "title": "Meet Dave",
+      "budget_millions": 60.0,
+      "revenue_millions": 50.7,
+      "target": 0
+    },
+    {
+      "title": "Drop Dead Fred",
+      "budget_millions": 6.8,
+      "revenue_millions": 13.9,
+      "target": 1
+    },
+    {
+      "title": "Nothing Left to Fear",
+      "budget_millions": 3.0,
+      "revenue_millions": 1.7,
+      "target": 0
+    },
+    {
+      "title": "Gaby: A True Story",
+      "budget_millions": 5.0,
+      "revenue_millions": 0.1,
+      "target": 0
+    },
+    {
+      "title": "The Face of Love",
+      "budget_millions": 4.0,
+      "revenue_millions": 0.4,
+      "target": 0
+    },
+    {
+      "title": "Femme Fatale",
+      "budget_millions": 35.0,
+      "revenue_millions": 16.8,
+      "target": 0
+    },
+    {
+      "title": "American Ultra",
+      "budget_millions": 28.0,
+      "revenue_millions": 27.1,
+      "target": 0
+    },
+    {
+      "title": "Meet the Deedles",
+      "budget_millions": 24.0,
+      "revenue_millions": 4.6,
+      "target": 0
+    },
+    {
+      "title": "Ernest & Celestine",
+      "budget_millions": 12.5,
+      "revenue_millions": 8.1,
+      "target": 0
+    },
+    {
+      "title": "The Mission",
+      "budget_millions": 24.5,
+      "revenue_millions": 17.2,
+      "target": 0
+    },
+    {
+      "title": "We Are Your Friends",
+      "budget_millions": 6.0,
+      "revenue_millions": 11.1,
+      "target": 1
+    },
+    {
+      "title": "Witness for the Prosecution",
+      "budget_millions": 3.0,
+      "revenue_millions": 9.0,
+      "target": 2
+    },
+    {
+      "title": "Invisible Agent",
+      "budget_millions": 0.3,
+      "revenue_millions": 1.0,
+      "target": 2
+    },
+    {
+      "title": "Airplane!",
+      "budget_millions": 3.5,
+      "revenue_millions": 83.5,
+      "target": 2
+    },
+    {
+      "title": "Not Another Teen Movie",
+      "budget_millions": 16.0,
+      "revenue_millions": 66.5,
+      "target": 2
+    },
+    {
+      "title": "Lionheart",
+      "budget_millions": 6.0,
+      "revenue_millions": 24.1,
+      "target": 2
+    },
+    {
+      "title": "Filth",
+      "budget_millions": 5.0,
+      "revenue_millions": 9.1,
+      "target": 1
+    },
+    {
+      "title": "The Butler",
+      "budget_millions": 25.0,
+      "revenue_millions": 115.9,
+      "target": 2
+    },
+    {
+      "title": "Doom",
+      "budget_millions": 60.0,
+      "revenue_millions": 56.0,
+      "target": 0
+    },
+    {
+      "title": "The Myth Of Fingerprints",
+      "budget_millions": 2.0,
+      "revenue_millions": 0.5,
+      "target": 0
+    },
+    {
+      "title": "Jack and Jill",
+      "budget_millions": 79.0,
+      "revenue_millions": 149.7,
+      "target": 1
+    },
+    {
+      "title": "The Maze Runner",
+      "budget_millions": 34.0,
+      "revenue_millions": 348.3,
+      "target": 2
+    },
+    {
+      "title": "Another Earth",
+      "budget_millions": 0.1,
+      "revenue_millions": 1.8,
+      "target": 2
+    },
+    {
+      "title": "Star!",
+      "budget_millions": 14.3,
+      "revenue_millions": 14.0,
+      "target": 0
+    },
+    {
+      "title": "The Phantom of the Opera",
+      "budget_millions": 70.0,
+      "revenue_millions": 154.6,
+      "target": 1
+    },
+    {
+      "title": "Freakonomics",
+      "budget_millions": 3.0,
+      "revenue_millions": 0.1,
+      "target": 0
+    },
+    {
+      "title": "Saving Grace",
+      "budget_millions": 10.0,
+      "revenue_millions": 26.3,
+      "target": 1
+    },
+    {
+      "title": "The Rock",
+      "budget_millions": 75.0,
+      "revenue_millions": 335.1,
+      "target": 2
+    },
+    {
+      "title": "The Scorpion King",
+      "budget_millions": 60.0,
+      "revenue_millions": 165.3,
+      "target": 1
+    },
+    {
+      "title": "Run Lola Run",
+      "budget_millions": 1.5,
+      "revenue_millions": 7.3,
+      "target": 2
+    },
+    {
+      "title": "Chicken with Plums",
+      "budget_millions": 12.0,
+      "revenue_millions": 1.4,
+      "target": 0
+    },
+    {
+      "title": "Traffic",
+      "budget_millions": 48.0,
+      "revenue_millions": 207.5,
+      "target": 2
+    },
+    {
+      "title": "Street Kings",
+      "budget_millions": 20.0,
+      "revenue_millions": 65.6,
+      "target": 2
+    },
+    {
+      "title": "Licence to Kill",
+      "budget_millions": 32.0,
+      "revenue_millions": 156.2,
+      "target": 2
+    },
+    {
+      "title": "Hancock",
+      "budget_millions": 150.0,
+      "revenue_millions": 624.0,
+      "target": 2
+    },
+    {
+      "title": "This Means War",
+      "budget_millions": 65.0,
+      "revenue_millions": 157.0,
+      "target": 1
+    },
+    {
+      "title": "The Way Back",
+      "budget_millions": 30.0,
+      "revenue_millions": 20.3,
+      "target": 0
+    },
+    {
+      "title": "Atomic Blonde",
+      "budget_millions": 30.0,
+      "revenue_millions": 90.0,
+      "target": 2
+    },
+    {
+      "title": "Around the World in Eighty Days",
+      "budget_millions": 6.0,
+      "revenue_millions": 42.0,
+      "target": 2
+    },
+    {
+      "title": "Perfect Stranger",
+      "budget_millions": 60.8,
+      "revenue_millions": 73.1,
+      "target": 1
+    },
+    {
+      "title": "The Painted Veil",
+      "budget_millions": 0.9,
+      "revenue_millions": 1.1,
+      "target": 1
+    },
+    {
+      "title": "Tea with Mussolini",
+      "budget_millions": 12.0,
+      "revenue_millions": 21.0,
+      "target": 1
+    },
+    {
+      "title": "Ouija",
+      "budget_millions": 5.0,
+      "revenue_millions": 103.6,
+      "target": 2
+    },
+    {
+      "title": "Dead & Buried",
+      "budget_millions": 3.0,
+      "revenue_millions": 0.2,
+      "target": 0
+    },
+    {
+      "title": "Galaxy Quest",
+      "budget_millions": 45.0,
+      "revenue_millions": 90.7,
+      "target": 1
+    },
+    {
+      "title": "Final Destination 3",
+      "budget_millions": 25.0,
+      "revenue_millions": 117.7,
+      "target": 2
+    },
+    {
+      "title": "Think Like a Man Too",
+      "budget_millions": 24.0,
+      "revenue_millions": 70.2,
+      "target": 1
+    },
+    {
+      "title": "Howl",
+      "budget_millions": 0.0,
+      "revenue_millions": 0.6,
+      "target": 2
+    },
+    {
+      "title": "Bee Movie",
+      "budget_millions": 150.0,
+      "revenue_millions": 287.6,
+      "target": 1
+    },
+    {
+      "title": "The Warrior's Way",
+      "budget_millions": 42.0,
+      "revenue_millions": 11.1,
+      "target": 0
+    },
+    {
+      "title": "Mr. Destiny",
+      "budget_millions": 20.0,
+      "revenue_millions": 15.4,
+      "target": 0
+    },
+    {
+      "title": "Diary of a Wimpy Kid: Rodrick Rules",
+      "budget_millions": 21.0,
+      "revenue_millions": 72.4,
+      "target": 2
+    },
+    {
+      "title": "House at the End of the Street",
+      "budget_millions": 6.9,
+      "revenue_millions": 44.3,
+      "target": 2
+    },
+    {
+      "title": "Center Stage",
+      "budget_millions": 18.0,
+      "revenue_millions": 17.2,
+      "target": 0
+    },
+    {
+      "title": "Dil To Pagal Hai",
+      "budget_millions": 1.3,
+      "revenue_millions": 11.0,
+      "target": 2
+    },
+    {
+      "title": "Bullet to the Head",
+      "budget_millions": 55.0,
+      "revenue_millions": 9.5,
+      "target": 0
+    },
+    {
+      "title": "The Life of David Gale",
+      "budget_millions": 50.0,
+      "revenue_millions": 39.0,
+      "target": 0
+    },
+    {
+      "title": "The Rage: Carrie 2",
+      "budget_millions": 21.0,
+      "revenue_millions": 17.8,
+      "target": 0
+    },
+    {
+      "title": "Star Trek: First Contact",
+      "budget_millions": 46.0,
+      "revenue_millions": 150.0,
+      "target": 2
+    },
+    {
+      "title": "Evil Dead",
+      "budget_millions": 17.0,
+      "revenue_millions": 97.5,
+      "target": 2
+    },
+    {
+      "title": "Date Movie",
+      "budget_millions": 20.0,
+      "revenue_millions": 48.5,
+      "target": 1
+    },
+    {
+      "title": "A Nightmare on Elm Street Part 2: Freddy's Revenge",
+      "budget_millions": 3.0,
+      "revenue_millions": 30.0,
+      "target": 2
+    },
+    {
+      "title": "The Perez Family",
+      "budget_millions": 11.0,
+      "revenue_millions": 2.8,
+      "target": 0
+    },
+    {
+      "title": "Swing Vote",
+      "budget_millions": 21.0,
+      "revenue_millions": 17.6,
+      "target": 0
+    },
+    {
+      "title": "Strange Days",
+      "budget_millions": 42.0,
+      "revenue_millions": 8.0,
+      "target": 0
+    },
+    {
+      "title": "The Guest",
+      "budget_millions": 5.0,
+      "revenue_millions": 2.4,
+      "target": 0
+    },
+    {
+      "title": "Those Magnificent Men in Their Flying Machines or How I Flew from London to Paris in 25 hours 11 minutes",
+      "budget_millions": 5.6,
+      "revenue_millions": 29.9,
+      "target": 2
+    },
+    {
+      "title": "Inside Out",
+      "budget_millions": 175.0,
+      "revenue_millions": 857.6,
+      "target": 2
+    },
+    {
+      "title": "Bronson",
+      "budget_millions": 0.2,
+      "revenue_millions": 2.3,
+      "target": 2
+    },
+    {
+      "title": "Infamous",
+      "budget_millions": 13.0,
+      "revenue_millions": 1.2,
+      "target": 0
+    },
+    {
+      "title": "Capote",
+      "budget_millions": 7.0,
+      "revenue_millions": 49.1,
+      "target": 2
+    },
+    {
+      "title": "I, Robot",
+      "budget_millions": 120.0,
+      "revenue_millions": 347.2,
+      "target": 1
+    },
+    {
+      "title": "Search and Destroy",
+      "budget_millions": 4.0,
+      "revenue_millions": 0.4,
+      "target": 0
+    },
+    {
+      "title": "The Indian Runner",
+      "budget_millions": 7.0,
+      "revenue_millions": 0.2,
+      "target": 0
+    },
+    {
+      "title": "The Legend of Boggy Creek",
+      "budget_millions": 0.1,
+      "revenue_millions": 22.0,
+      "target": 2
+    },
+    {
+      "title": "Tidal Wave",
+      "budget_millions": 16.0,
+      "revenue_millions": 11.3,
+      "target": 0
+    },
+    {
+      "title": "Agent Cody Banks",
+      "budget_millions": 28.0,
+      "revenue_millions": 58.8,
+      "target": 1
+    },
+    {
+      "title": "John Q",
+      "budget_millions": 36.0,
+      "revenue_millions": 102.2,
+      "target": 1
+    },
+    {
+      "title": "Snake Eyes",
+      "budget_millions": 73.0,
+      "revenue_millions": 103.9,
+      "target": 1
+    },
+    {
+      "title": "Candyman",
+      "budget_millions": 6.0,
+      "revenue_millions": 25.8,
+      "target": 2
+    },
+    {
+      "title": "The Simpsons Movie",
+      "budget_millions": 75.0,
+      "revenue_millions": 527.1,
+      "target": 2
+    },
+    {
+      "title": "Awake",
+      "budget_millions": 86.0,
+      "revenue_millions": 14.4,
+      "target": 0
+    },
+    {
+      "title": "Laurence Anyways",
+      "budget_millions": 9.5,
+      "revenue_millions": 0.0,
+      "target": 0
+    },
+    {
+      "title": "Baahubali 2: The Conclusion",
+      "budget_millions": 18.0,
+      "revenue_millions": 230.0,
+      "target": 2
+    },
+    {
+      "title": "Practical Magic",
+      "budget_millions": 75.0,
+      "revenue_millions": 46.7,
+      "target": 0
+    },
+    {
+      "title": "Justin Bieber: Never Say Never",
+      "budget_millions": 13.0,
+      "revenue_millions": 98.4,
+      "target": 2
+    },
+    {
+      "title": "City Slickers",
+      "budget_millions": 27.0,
+      "revenue_millions": 179.0,
+      "target": 2
+    },
+    {
+      "title": "Pawn Sacrifice",
+      "budget_millions": 19.0,
+      "revenue_millions": 5.6,
+      "target": 0
+    },
+    {
+      "title": "Redd Inc.",
+      "budget_millions": 0.5,
+      "revenue_millions": 1.0,
+      "target": 1
+    },
+    {
+      "title": "Bridge of Spies",
+      "budget_millions": 40.0,
+      "revenue_millions": 165.5,
+      "target": 2
+    },
+    {
+      "title": "Go Go Tales",
+      "budget_millions": 4.0,
+      "revenue_millions": 0.9,
+      "target": 0
+    },
+    {
+      "title": "Better Living Through Chemistry",
+      "budget_millions": 5.0,
+      "revenue_millions": 0.1,
+      "target": 0
+    },
+    {
+      "title": "Assault on Precinct 13",
+      "budget_millions": 30.0,
+      "revenue_millions": 35.3,
+      "target": 1
+    },
+    {
+      "title": "Live Free or Die Hard",
+      "budget_millions": 110.0,
+      "revenue_millions": 383.5,
+      "target": 2
+    },
+    {
+      "title": "Arthur",
+      "budget_millions": 40.0,
+      "revenue_millions": 45.7,
+      "target": 1
+    },
+    {
+      "title": "Harry Potter and the Deathly Hallows: Part 2",
+      "budget_millions": 125.0,
+      "revenue_millions": 1342.0,
+      "target": 2
+    },
+    {
+      "title": "Am\u00e9lie",
+      "budget_millions": 10.0,
+      "revenue_millions": 173.9,
+      "target": 2
+    },
+    {
+      "title": "Seraphim Falls",
+      "budget_millions": 18.0,
+      "revenue_millions": 1.2,
+      "target": 0
+    },
+    {
+      "title": "Pocahontas",
+      "budget_millions": 55.0,
+      "revenue_millions": 346.1,
+      "target": 2
+    },
+    {
+      "title": "Paradise",
+      "budget_millions": 34.0,
+      "revenue_millions": 18.6,
+      "target": 0
+    },
+    {
+      "title": "Kadhal Kottai",
+      "budget_millions": 0.5,
+      "revenue_millions": 0.5,
+      "target": 1
+    },
+    {
+      "title": "Drive Angry",
+      "budget_millions": 50.0,
+      "revenue_millions": 28.9,
+      "target": 0
+    },
+    {
+      "title": "MouseHunt",
+      "budget_millions": 38.0,
+      "revenue_millions": 122.4,
+      "target": 2
+    },
+    {
+      "title": "Why Him?",
+      "budget_millions": 38.0,
+      "revenue_millions": 118.0,
+      "target": 2
+    }
+  ]
+}
